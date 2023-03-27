@@ -1,0 +1,26 @@
+{
+  "name": "@source-pot/pub-sub",
+  "version": "1.0.0",
+  "main": "lib/PubSub.js",
+  "types": "lib/PubSub.d.ts",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "Rob Watson, Source Pot",
+  "homepage": "https://github.com/source-pot/ts-pub-sub",
+  "license": "MIT",
+  "description": "A simple pub/sub implementation with Typescript",
+  "files": [
+    "lib/**/*"
+  ]
+}
